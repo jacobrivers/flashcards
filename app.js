@@ -10,7 +10,14 @@ function renderLibrary(){
   decks.forEach(deck => {
     const btn = document.createElement('button');
     btn.className = 'deck-tile';
-    btn.innerHTML = `<h3>${deck.name}</h3><span>${deck.category} • ${deck.cards.length} cards</span>`;
+    const label = deck.label || deck.name;
+    const description = deck.description || deck.category;
+    btn.innerHTML = `
+      <div class="deck-label">${label}</div>
+      <h3>${deck.name}</h3>
+      <p>${description}</p>
+      <span>${deck.category} • ${deck.cards.length} cards</span>
+    `;
     btn.onclick = () => openDeck(deck.id);
     lib.appendChild(btn);
   });

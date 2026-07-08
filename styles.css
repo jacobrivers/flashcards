@@ -8,7 +8,9 @@ main { max-width:1180px; margin:0 auto; padding:24px; }
 .deck-library { display:grid; grid-template-columns:repeat(auto-fit,minmax(220px,1fr)); gap:16px; }
 .deck-tile { background:var(--panel); border:1px solid var(--border); border-radius:18px; padding:18px; min-height:132px; cursor:pointer; box-shadow:0 8px 24px rgba(16,24,40,.06); text-align:left; }
 .deck-tile:hover { transform:translateY(-2px); border-color:var(--accent); }
+.deck-label { display:inline-block; margin-bottom:10px; padding:6px 10px; border-radius:999px; background:#eef2ff; color:#243b9f; font-size:13px; font-weight:800; letter-spacing:.02em; text-transform:uppercase; }
 .deck-tile h3 { margin:0 0 8px; font-size:22px; }
+.deck-tile p { margin:0 0 12px; color:var(--muted); font-size:15px; line-height:1.35; }
 .deck-tile span { color:var(--muted); font-size:14px; }
 .hidden { display:none !important; }
 .study-top { display:flex; justify-content:space-between; align-items:center; gap:12px; margin-bottom:18px; }

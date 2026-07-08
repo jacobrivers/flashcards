@@ -24,3 +24,7 @@ No npm install is required.
 ## Edit decks
 
 Edit `decks.js` to add, remove, or change cards.
+
+## Latest Update
+
+Deck tiles now include clear labels, such as Upper Letters, Lower Letters, Mixed Letters, Numbers, Shapes, Home Words, First Words, Word Family, and Beginning Blend. These labels make it easier to identify what each deck contains before opening it.

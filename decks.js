@@ -134,7 +134,9 @@ window.FLASHCARD_DECKS = [
         "title": "Z",
         "subtitle": "Uppercase Z"
       }
-    ]
+    ],
+    "label": "Upper Letters",
+    "description": "A–Z uppercase letter cards"
   },
   {
     "id": "alphabet-lower",
@@ -271,7 +273,9 @@ window.FLASHCARD_DECKS = [
         "title": "z",
         "subtitle": "Lowercase z"
       }
-    ]
+    ],
+    "label": "Lower Letters",
+    "description": "a–z lowercase letter cards"
   },
   {
     "id": "alphabet-both",
@@ -408,11 +412,13 @@ window.FLASHCARD_DECKS = [
         "title": "Z z",
         "subtitle": "Z and z"
       }
-    ]
+    ],
+    "label": "Mixed Letters",
+    "description": "Uppercase and lowercase letter pairs"
   },
   {
     "id": "numbers-0-20",
-    "name": "Numbers 0\u201320",
+    "name": "Numbers 0–20",
     "category": "Numbers",
     "cards": [
       {
@@ -541,7 +547,9 @@ window.FLASHCARD_DECKS = [
         "subtitle": "Twenty",
         "count": 20
       }
-    ]
+    ],
+    "label": "Numbers",
+    "description": "Numbers 0 through 20"
   },
   {
     "id": "shapes",
@@ -618,7 +626,9 @@ window.FLASHCARD_DECKS = [
         "title": "Cross",
         "shape": "cross"
       }
-    ]
+    ],
+    "label": "Shapes",
+    "description": "Basic drawn shapes, no image downloads"
   },
   {
     "id": "colors",
@@ -690,7 +700,9 @@ window.FLASHCARD_DECKS = [
         "title": "Silver",
         "color": "silver"
       }
-    ]
+    ],
+    "label": "Colors",
+    "description": "Color cards with large swatches"
   },
   {
     "id": "home-words",
@@ -701,43 +713,43 @@ window.FLASHCARD_DECKS = [
         "type": "word",
         "title": "Bed",
         "subtitle": "Bed",
-        "emoji": "\ud83d\udecf\ufe0f"
+        "emoji": "🛏️"
       },
       {
         "type": "word",
         "title": "Sink",
         "subtitle": "Sink",
-        "emoji": "\ud83d\udeb0"
+        "emoji": "🚰"
       },
       {
         "type": "word",
         "title": "Fridge",
         "subtitle": "Fridge",
-        "emoji": "\ud83e\uddca"
+        "emoji": "🧊"
       },
       {
         "type": "word",
         "title": "Door",
         "subtitle": "Door",
-        "emoji": "\ud83d\udeaa"
+        "emoji": "🚪"
       },
       {
         "type": "word",
         "title": "Window",
         "subtitle": "Window",
-        "emoji": "\ud83e\ude9f"
+        "emoji": "🪟"
       },
       {
         "type": "word",
         "title": "Chair",
         "subtitle": "Chair",
-        "emoji": "\ud83e\ude91"
+        "emoji": "🪑"
       },
       {
         "type": "word",
         "title": "Table",
         "subtitle": "Table",
-        "emoji": "\u25ad"
+        "emoji": "▭"
       },
       {
         "type": "word",
@@ -749,255 +761,257 @@ window.FLASHCARD_DECKS = [
         "type": "word",
         "title": "Pillow",
         "subtitle": "Pillow",
-        "emoji": "\u2601\ufe0f"
+        "emoji": "☁️"
       },
       {
         "type": "word",
         "title": "Blanket",
         "subtitle": "Blanket",
-        "emoji": "\u25b0"
+        "emoji": "▰"
       },
       {
         "type": "word",
         "title": "Lamp",
         "subtitle": "Lamp",
-        "emoji": "\ud83d\udca1"
+        "emoji": "💡"
       },
       {
         "type": "word",
         "title": "Closet",
         "subtitle": "Closet",
-        "emoji": "\ud83d\udeaa"
+        "emoji": "🚪"
       },
       {
         "type": "word",
         "title": "Dresser",
         "subtitle": "Dresser",
-        "emoji": "\u25a4"
+        "emoji": "▤"
       },
       {
         "type": "word",
         "title": "Clock",
         "subtitle": "Clock",
-        "emoji": "\ud83d\udd58"
+        "emoji": "🕘"
       },
       {
         "type": "word",
         "title": "Toilet",
         "subtitle": "Toilet",
-        "emoji": "\ud83d\udebd"
+        "emoji": "🚽"
       },
       {
         "type": "word",
         "title": "Bathtub",
         "subtitle": "Bathtub",
-        "emoji": "\ud83d\udec1"
+        "emoji": "🛁"
       },
       {
         "type": "word",
         "title": "Shower",
         "subtitle": "Shower",
-        "emoji": "\ud83d\udebf"
+        "emoji": "🚿"
       },
       {
         "type": "word",
         "title": "Soap",
         "subtitle": "Soap",
-        "emoji": "\ud83e\uddfc"
+        "emoji": "🧼"
       },
       {
         "type": "word",
         "title": "Toothbrush",
         "subtitle": "Toothbrush",
-        "emoji": "\ud83e\udea5"
+        "emoji": "🪥"
       },
       {
         "type": "word",
         "title": "Toothpaste",
         "subtitle": "Toothpaste",
-        "emoji": "\ud83e\uddb7"
+        "emoji": "🦷"
       },
       {
         "type": "word",
         "title": "Towel",
         "subtitle": "Towel",
-        "emoji": "\u25ad"
+        "emoji": "▭"
       },
       {
         "type": "word",
         "title": "Mirror",
         "subtitle": "Mirror",
-        "emoji": "\u25ef"
+        "emoji": "◯"
       },
       {
         "type": "word",
         "title": "Rug",
         "subtitle": "Rug",
-        "emoji": "\u25ad"
+        "emoji": "▭"
       },
       {
         "type": "word",
         "title": "Fan",
         "subtitle": "Fan",
-        "emoji": "\u2724"
+        "emoji": "✤"
       },
       {
         "type": "word",
         "title": "Light",
         "subtitle": "Light",
-        "emoji": "\ud83d\udca1"
+        "emoji": "💡"
       },
       {
         "type": "word",
         "title": "Book",
         "subtitle": "Book",
-        "emoji": "\ud83d\udcd8"
+        "emoji": "📘"
       },
       {
         "type": "word",
         "title": "Toy",
         "subtitle": "Toy",
-        "emoji": "\ud83e\uddf8"
+        "emoji": "🧸"
       },
       {
         "type": "word",
         "title": "Basket",
         "subtitle": "Basket",
-        "emoji": "\ud83e\uddfa"
+        "emoji": "🧺"
       },
       {
         "type": "word",
         "title": "Washer",
         "subtitle": "Washer",
-        "emoji": "\u25c9"
+        "emoji": "◉"
       },
       {
         "type": "word",
         "title": "Dryer",
         "subtitle": "Dryer",
-        "emoji": "\u25c9"
+        "emoji": "◉"
       },
       {
         "type": "word",
         "title": "Sock",
         "subtitle": "Sock",
-        "emoji": "\ud83e\udde6"
+        "emoji": "🧦"
       },
       {
         "type": "word",
         "title": "Shirt",
         "subtitle": "Shirt",
-        "emoji": "\ud83d\udc55"
+        "emoji": "👕"
       },
       {
         "type": "word",
         "title": "Pants",
         "subtitle": "Pants",
-        "emoji": "\ud83d\udc56"
+        "emoji": "👖"
       },
       {
         "type": "word",
         "title": "Shoe",
         "subtitle": "Shoe",
-        "emoji": "\ud83d\udc5f"
+        "emoji": "👟"
       },
       {
         "type": "word",
         "title": "Hat",
         "subtitle": "Hat",
-        "emoji": "\ud83e\udde2"
+        "emoji": "🧢"
       },
       {
         "type": "word",
         "title": "Stove",
         "subtitle": "Stove",
-        "emoji": "\ud83c\udf73"
+        "emoji": "🍳"
       },
       {
         "type": "word",
         "title": "Oven",
         "subtitle": "Oven",
-        "emoji": "\ud83d\udd25"
+        "emoji": "🔥"
       },
       {
         "type": "word",
         "title": "Microwave",
         "subtitle": "Microwave",
-        "emoji": "\ud83d\udcdf"
+        "emoji": "📟"
       },
       {
         "type": "word",
         "title": "Plate",
         "subtitle": "Plate",
-        "emoji": "\ud83c\udf7d\ufe0f"
+        "emoji": "🍽️"
       },
       {
         "type": "word",
         "title": "Bowl",
         "subtitle": "Bowl",
-        "emoji": "\ud83e\udd63"
+        "emoji": "🥣"
       },
       {
         "type": "word",
         "title": "Cup",
         "subtitle": "Cup",
-        "emoji": "\ud83e\udd64"
+        "emoji": "🥤"
       },
       {
         "type": "word",
         "title": "Spoon",
         "subtitle": "Spoon",
-        "emoji": "\ud83e\udd44"
+        "emoji": "🥄"
       },
       {
         "type": "word",
         "title": "Fork",
         "subtitle": "Fork",
-        "emoji": "\ud83c\udf74"
+        "emoji": "🍴"
       },
       {
         "type": "word",
         "title": "Knife",
         "subtitle": "Knife",
-        "emoji": "\ud83d\udd2a"
+        "emoji": "🔪"
       },
       {
         "type": "word",
         "title": "Faucet",
         "subtitle": "Faucet",
-        "emoji": "\ud83d\udeb0"
+        "emoji": "🚰"
       },
       {
         "type": "word",
         "title": "Freezer",
         "subtitle": "Freezer",
-        "emoji": "\ud83e\uddca"
+        "emoji": "🧊"
       },
       {
         "type": "word",
         "title": "Trash Can",
         "subtitle": "Trash Can",
-        "emoji": "\ud83d\uddd1\ufe0f"
+        "emoji": "🗑️"
       },
       {
         "type": "word",
         "title": "Cabinet",
         "subtitle": "Cabinet",
-        "emoji": "\u25a3"
+        "emoji": "▣"
       },
       {
         "type": "word",
         "title": "Drawer",
         "subtitle": "Drawer",
-        "emoji": "\u25a4"
+        "emoji": "▤"
       },
       {
         "type": "word",
         "title": "Counter",
         "subtitle": "Counter",
-        "emoji": "\u25ad"
+        "emoji": "▭"
       }
-    ]
+    ],
+    "label": "Home Words",
+    "description": "50 common words around the home"
   },
   {
     "id": "first-100",
@@ -1008,103 +1022,103 @@ window.FLASHCARD_DECKS = [
         "type": "word",
         "title": "Cat",
         "subtitle": "Cat",
-        "emoji": "\ud83d\udc31"
+        "emoji": "🐱"
       },
       {
         "type": "word",
         "title": "Dog",
         "subtitle": "Dog",
-        "emoji": "\ud83d\udc36"
+        "emoji": "🐶"
       },
       {
         "type": "word",
         "title": "Fish",
         "subtitle": "Fish",
-        "emoji": "\ud83d\udc1f"
+        "emoji": "🐟"
       },
       {
         "type": "word",
         "title": "Bird",
         "subtitle": "Bird",
-        "emoji": "\ud83d\udc26"
+        "emoji": "🐦"
       },
       {
         "type": "word",
         "title": "Cow",
         "subtitle": "Cow",
-        "emoji": "\ud83d\udc04"
+        "emoji": "🐄"
       },
       {
         "type": "word",
         "title": "Pig",
         "subtitle": "Pig",
-        "emoji": "\ud83d\udc37"
+        "emoji": "🐷"
       },
       {
         "type": "word",
         "title": "Horse",
         "subtitle": "Horse",
-        "emoji": "\ud83d\udc34"
+        "emoji": "🐴"
       },
       {
         "type": "word",
         "title": "Duck",
         "subtitle": "Duck",
-        "emoji": "\ud83e\udd86"
+        "emoji": "🦆"
       },
       {
         "type": "word",
         "title": "Frog",
         "subtitle": "Frog",
-        "emoji": "\ud83d\udc38"
+        "emoji": "🐸"
       },
       {
         "type": "word",
         "title": "Bear",
         "subtitle": "Bear",
-        "emoji": "\ud83d\udc3b"
+        "emoji": "🐻"
       },
       {
         "type": "word",
         "title": "Apple",
         "subtitle": "Apple",
-        "emoji": "\ud83c\udf4e"
+        "emoji": "🍎"
       },
       {
         "type": "word",
         "title": "Banana",
         "subtitle": "Banana",
-        "emoji": "\ud83c\udf4c"
+        "emoji": "🍌"
       },
       {
         "type": "word",
         "title": "Orange",
         "subtitle": "Orange",
-        "emoji": "\ud83c\udf4a"
+        "emoji": "🍊"
       },
       {
         "type": "word",
         "title": "Pear",
         "subtitle": "Pear",
-        "emoji": "\ud83c\udf50"
+        "emoji": "🍐"
       },
       {
         "type": "word",
         "title": "Peach",
         "subtitle": "Peach",
-        "emoji": "\ud83c\udf51"
+        "emoji": "🍑"
       },
       {
         "type": "word",
         "title": "Corn",
         "subtitle": "Corn",
-        "emoji": "\ud83c\udf3d"
+        "emoji": "🌽"
       },
       {
         "type": "word",
         "title": "Peas",
         "subtitle": "Peas",
-        "emoji": "\ud83d\udfe2"
+        "emoji": "🟢"
       },
       {
         "type": "word",
@@ -1176,31 +1190,31 @@ window.FLASHCARD_DECKS = [
         "type": "word",
         "title": "Bed",
         "subtitle": "Bed",
-        "emoji": "\ud83d\udecf\ufe0f"
+        "emoji": "🛏️"
       },
       {
         "type": "word",
         "title": "Chair",
         "subtitle": "Chair",
-        "emoji": "\ud83e\ude91"
+        "emoji": "🪑"
       },
       {
         "type": "word",
         "title": "Door",
         "subtitle": "Door",
-        "emoji": "\ud83d\udeaa"
+        "emoji": "🚪"
       },
       {
         "type": "word",
         "title": "Window",
         "subtitle": "Window",
-        "emoji": "\ud83e\ude9f"
+        "emoji": "🪟"
       },
       {
         "type": "word",
         "title": "Table",
         "subtitle": "Table",
-        "emoji": "\u25ad"
+        "emoji": "▭"
       },
       {
         "type": "word",
@@ -1212,79 +1226,79 @@ window.FLASHCARD_DECKS = [
         "type": "word",
         "title": "Book",
         "subtitle": "Book",
-        "emoji": "\ud83d\udcd8"
+        "emoji": "📘"
       },
       {
         "type": "word",
         "title": "Ball",
         "subtitle": "Ball",
-        "emoji": "\u26bd"
+        "emoji": "⚽"
       },
       {
         "type": "word",
         "title": "Toy",
         "subtitle": "Toy",
-        "emoji": "\ud83e\uddf8"
+        "emoji": "🧸"
       },
       {
         "type": "word",
         "title": "Box",
         "subtitle": "Box",
-        "emoji": "\ud83d\udce6"
+        "emoji": "📦"
       },
       {
         "type": "word",
         "title": "Tree",
         "subtitle": "Tree",
-        "emoji": "\ud83c\udf33"
+        "emoji": "🌳"
       },
       {
         "type": "word",
         "title": "Grass",
         "subtitle": "Grass",
-        "emoji": "\ud83c\udf31"
+        "emoji": "🌱"
       },
       {
         "type": "word",
         "title": "Flower",
         "subtitle": "Flower",
-        "emoji": "\ud83c\udf3c"
+        "emoji": "🌼"
       },
       {
         "type": "word",
         "title": "Rock",
         "subtitle": "Rock",
-        "emoji": "\ud83e\udea8"
+        "emoji": "🪨"
       },
       {
         "type": "word",
         "title": "Sun",
         "subtitle": "Sun",
-        "emoji": "\u2600\ufe0f"
+        "emoji": "☀️"
       },
       {
         "type": "word",
         "title": "Moon",
         "subtitle": "Moon",
-        "emoji": "\ud83c\udf19"
+        "emoji": "🌙"
       },
       {
         "type": "word",
         "title": "Star",
         "subtitle": "Star",
-        "emoji": "\u2b50"
+        "emoji": "⭐"
       },
       {
         "type": "word",
         "title": "Cloud",
         "subtitle": "Cloud",
-        "emoji": "\u2601\ufe0f"
+        "emoji": "☁️"
       },
       {
         "type": "word",
         "title": "Rain",
         "subtitle": "Rain",
-        "emoji": "\ud83c\udf27\ufe0f"
+        "emoji": "🌧️"
       },
       {
         "type": "word",
@@ -1296,49 +1310,49 @@ window.FLASHCARD_DECKS = [
         "type": "word",
         "title": "Car",
         "subtitle": "Car",
-        "emoji": "\ud83d\ude97"
+        "emoji": "🚗"
       },
       {
         "type": "word",
         "title": "Bus",
         "subtitle": "Bus",
-        "emoji": "\ud83d\ude8c"
+        "emoji": "🚌"
       },
       {
         "type": "word",
         "title": "Bike",
         "subtitle": "Bike",
-        "emoji": "\ud83d\udeb2"
+        "emoji": "🚲"
       },
       {
         "type": "word",
         "title": "Truck",
         "subtitle": "Truck",
-        "emoji": "\ud83d\ude9a"
+        "emoji": "🚚"
       },
       {
         "type": "word",
         "title": "Train",
         "subtitle": "Train",
-        "emoji": "\ud83d\ude86"
+        "emoji": "🚆"
       },
       {
         "type": "word",
         "title": "Boat",
         "subtitle": "Boat",
-        "emoji": "\u26f5"
+        "emoji": "⛵"
       },
       {
         "type": "word",
         "title": "Plane",
         "subtitle": "Plane",
-        "emoji": "\u2708\ufe0f"
+        "emoji": "✈️"
       },
       {
         "type": "word",
         "title": "Tractor",
         "subtitle": "Tractor",
-        "emoji": "\ud83d\ude9c"
+        "emoji": "🚜"
       },
       {
         "type": "word",
@@ -1404,43 +1418,43 @@ window.FLASHCARD_DECKS = [
         "type": "word",
         "title": "Shirt",
         "subtitle": "Shirt",
-        "emoji": "\ud83d\udc55"
+        "emoji": "👕"
       },
       {
         "type": "word",
         "title": "Pants",
         "subtitle": "Pants",
-        "emoji": "\ud83d\udc56"
+        "emoji": "👖"
       },
       {
         "type": "word",
         "title": "Shoes",
         "subtitle": "Shoes",
-        "emoji": "\ud83d\udc5f"
+        "emoji": "👟"
       },
       {
         "type": "word",
         "title": "Socks",
         "subtitle": "Socks",
-        "emoji": "\ud83e\udde6"
+        "emoji": "🧦"
       },
       {
         "type": "word",
         "title": "Hat",
         "subtitle": "Hat",
-        "emoji": "\ud83e\udde2"
+        "emoji": "🧢"
       },
       {
         "type": "word",
         "title": "Coat",
         "subtitle": "Coat",
-        "emoji": "\ud83e\udde5"
+        "emoji": "🧥"
       },
       {
         "type": "word",
         "title": "Dress",
         "subtitle": "Dress",
-        "emoji": "\ud83d\udc57"
+        "emoji": "👗"
       },
       {
         "type": "word",
@@ -1452,13 +1466,13 @@ window.FLASHCARD_DECKS = [
         "type": "word",
         "title": "Gloves",
         "subtitle": "Gloves",
-        "emoji": "\ud83e\udde4"
+        "emoji": "🧤"
       },
       {
         "type": "word",
         "title": "Boots",
         "subtitle": "Boots",
-        "emoji": "\ud83e\udd7e"
+        "emoji": "🥾"
       },
       {
         "type": "word",
@@ -1604,7 +1618,9 @@ window.FLASHCARD_DECKS = [
         "subtitle": "Stop",
         "emoji": ""
       }
-    ]
+    ],
+    "label": "First Words",
+    "description": "100 simple words for young children"
   },
   {
     "id": "objects",
@@ -1615,75 +1631,77 @@ window.FLASHCARD_DECKS = [
         "type": "word",
         "title": "Ball",
         "subtitle": "Ball",
-        "emoji": "\u26bd"
+        "emoji": "⚽"
       },
       {
         "type": "word",
         "title": "Book",
         "subtitle": "Book",
-        "emoji": "\ud83d\udcd8"
+        "emoji": "📘"
       },
       {
         "type": "word",
         "title": "Toy",
         "subtitle": "Toy",
-        "emoji": "\ud83e\uddf8"
+        "emoji": "🧸"
       },
       {
         "type": "word",
         "title": "Cup",
         "subtitle": "Cup",
-        "emoji": "\ud83e\udd64"
+        "emoji": "🥤"
       },
       {
         "type": "word",
         "title": "Shoe",
         "subtitle": "Shoe",
-        "emoji": "\ud83d\udc5f"
+        "emoji": "👟"
       },
       {
         "type": "word",
         "title": "Hat",
         "subtitle": "Hat",
-        "emoji": "\ud83e\udde2"
+        "emoji": "🧢"
       },
       {
         "type": "word",
         "title": "Key",
         "subtitle": "Key",
-        "emoji": "\ud83d\udd11"
+        "emoji": "🔑"
       },
       {
         "type": "word",
         "title": "Bag",
         "subtitle": "Bag",
-        "emoji": "\ud83c\udf92"
+        "emoji": "🎒"
       },
       {
         "type": "word",
         "title": "Brush",
         "subtitle": "Brush",
-        "emoji": "\ud83e\udea5"
+        "emoji": "🪥"
       },
       {
         "type": "word",
         "title": "Phone",
         "subtitle": "Phone",
-        "emoji": "\u260e\ufe0f"
+        "emoji": "☎️"
       },
       {
         "type": "word",
         "title": "Box",
         "subtitle": "Box",
-        "emoji": "\ud83d\udce6"
+        "emoji": "📦"
       },
       {
         "type": "word",
         "title": "Clock",
         "subtitle": "Clock",
-        "emoji": "\ud83d\udd58"
+        "emoji": "🕘"
       }
-    ]
+    ],
+    "label": "Objects",
+    "description": "Everyday object picture words"
   },
   {
     "id": "kitchen",
@@ -1694,75 +1712,77 @@ window.FLASHCARD_DECKS = [
         "type": "word",
         "title": "Sink",
         "subtitle": "Sink",
-        "emoji": "\ud83d\udeb0"
+        "emoji": "🚰"
       },
       {
         "type": "word",
         "title": "Fridge",
         "subtitle": "Fridge",
-        "emoji": "\ud83e\uddca"
+        "emoji": "🧊"
       },
       {
         "type": "word",
         "title": "Stove",
         "subtitle": "Stove",
-        "emoji": "\ud83c\udf73"
+        "emoji": "🍳"
       },
       {
         "type": "word",
         "title": "Oven",
         "subtitle": "Oven",
-        "emoji": "\ud83d\udd25"
+        "emoji": "🔥"
       },
       {
         "type": "word",
         "title": "Microwave",
         "subtitle": "Microwave",
-        "emoji": "\ud83d\udcdf"
+        "emoji": "📟"
       },
       {
         "type": "word",
         "title": "Table",
         "subtitle": "Table",
-        "emoji": "\u25ad"
+        "emoji": "▭"
       },
       {
         "type": "word",
         "title": "Chair",
         "subtitle": "Chair",
-        "emoji": "\ud83e\ude91"
+        "emoji": "🪑"
       },
       {
         "type": "word",
         "title": "Spoon",
         "subtitle": "Spoon",
-        "emoji": "\ud83e\udd44"
+        "emoji": "🥄"
       },
       {
         "type": "word",
         "title": "Fork",
         "subtitle": "Fork",
-        "emoji": "\ud83c\udf74"
+        "emoji": "🍴"
       },
       {
         "type": "word",
         "title": "Cup",
         "subtitle": "Cup",
-        "emoji": "\ud83e\udd64"
+        "emoji": "🥤"
       },
       {
         "type": "word",
         "title": "Plate",
         "subtitle": "Plate",
-        "emoji": "\ud83c\udf7d\ufe0f"
+        "emoji": "🍽️"
       },
       {
         "type": "word",
         "title": "Bowl",
         "subtitle": "Bowl",
-        "emoji": "\ud83e\udd63"
+        "emoji": "🥣"
       }
-    ]
+    ],
+    "label": "Kitchen",
+    "description": "Common kitchen item cards"
   },
   {
     "id": "clothes",
@@ -1773,55 +1793,55 @@ window.FLASHCARD_DECKS = [
         "type": "word",
         "title": "Shirt",
         "subtitle": "Shirt",
-        "emoji": "\ud83d\udc55"
+        "emoji": "👕"
       },
       {
         "type": "word",
         "title": "Pants",
         "subtitle": "Pants",
-        "emoji": "\ud83d\udc56"
+        "emoji": "👖"
       },
       {
         "type": "word",
         "title": "Shoes",
         "subtitle": "Shoes",
-        "emoji": "\ud83d\udc5f"
+        "emoji": "👟"
       },
       {
         "type": "word",
         "title": "Socks",
         "subtitle": "Socks",
-        "emoji": "\ud83e\udde6"
+        "emoji": "🧦"
       },
       {
         "type": "word",
         "title": "Hat",
         "subtitle": "Hat",
-        "emoji": "\ud83e\udde2"
+        "emoji": "🧢"
       },
       {
         "type": "word",
         "title": "Coat",
         "subtitle": "Coat",
-        "emoji": "\ud83e\udde5"
+        "emoji": "🧥"
       },
       {
         "type": "word",
         "title": "Dress",
         "subtitle": "Dress",
-        "emoji": "\ud83d\udc57"
+        "emoji": "👗"
       },
       {
         "type": "word",
         "title": "Gloves",
         "subtitle": "Gloves",
-        "emoji": "\ud83e\udde4"
+        "emoji": "🧤"
       },
       {
         "type": "word",
         "title": "Boots",
         "subtitle": "Boots",
-        "emoji": "\ud83e\udd7e"
+        "emoji": "🥾"
       },
       {
         "type": "word",
@@ -1829,7 +1849,9 @@ window.FLASHCARD_DECKS = [
         "subtitle": "Belt",
         "emoji": ""
       }
-    ]
+    ],
+    "label": "Clothes",
+    "description": "Clothing word cards"
   },
   {
     "id": "vehicles",
@@ -1840,51 +1862,53 @@ window.FLASHCARD_DECKS = [
         "type": "word",
         "title": "Car",
         "subtitle": "Car",
-        "emoji": "\ud83d\ude97"
+        "emoji": "🚗"
       },
       {
         "type": "word",
         "title": "Bus",
         "subtitle": "Bus",
-        "emoji": "\ud83d\ude8c"
+        "emoji": "🚌"
       },
       {
         "type": "word",
         "title": "Bike",
         "subtitle": "Bike",
-        "emoji": "\ud83d\udeb2"
+        "emoji": "🚲"
       },
       {
         "type": "word",
         "title": "Truck",
         "subtitle": "Truck",
-        "emoji": "\ud83d\ude9a"
+        "emoji": "🚚"
       },
       {
         "type": "word",
         "title": "Train",
         "subtitle": "Train",
-        "emoji": "\ud83d\ude86"
+        "emoji": "🚆"
       },
       {
         "type": "word",
         "title": "Boat",
         "subtitle": "Boat",
-        "emoji": "\u26f5"
+        "emoji": "⛵"
       },
       {
         "type": "word",
         "title": "Plane",
         "subtitle": "Plane",
-        "emoji": "\u2708\ufe0f"
+        "emoji": "✈️"
       },
       {
         "type": "word",
         "title": "Tractor",
         "subtitle": "Tractor",
-        "emoji": "\ud83d\ude9c"
+        "emoji": "🚜"
       }
-    ]
+    ],
+    "label": "Vehicles",
+    "description": "Cars, buses, trucks, and more"
   },
   {
     "id": "outside",
@@ -1895,63 +1919,65 @@ window.FLASHCARD_DECKS = [
         "type": "word",
         "title": "Tree",
         "subtitle": "Tree",
-        "emoji": "\ud83c\udf33"
+        "emoji": "🌳"
       },
       {
         "type": "word",
         "title": "Sun",
         "subtitle": "Sun",
-        "emoji": "\u2600\ufe0f"
+        "emoji": "☀️"
       },
       {
         "type": "word",
         "title": "Moon",
         "subtitle": "Moon",
-        "emoji": "\ud83c\udf19"
+        "emoji": "🌙"
       },
       {
         "type": "word",
         "title": "Star",
         "subtitle": "Star",
-        "emoji": "\u2b50"
+        "emoji": "⭐"
       },
       {
         "type": "word",
         "title": "Cloud",
         "subtitle": "Cloud",
-        "emoji": "\u2601\ufe0f"
+        "emoji": "☁️"
       },
       {
         "type": "word",
         "title": "Rain",
         "subtitle": "Rain",
-        "emoji": "\ud83c\udf27\ufe0f"
+        "emoji": "🌧️"
       },
       {
         "type": "word",
         "title": "Flower",
         "subtitle": "Flower",
-        "emoji": "\ud83c\udf3c"
+        "emoji": "🌼"
       },
       {
         "type": "word",
         "title": "Rock",
         "subtitle": "Rock",
-        "emoji": "\ud83e\udea8"
+        "emoji": "🪨"
       },
       {
         "type": "word",
         "title": "Grass",
         "subtitle": "Grass",
-        "emoji": "\ud83c\udf31"
+        "emoji": "🌱"
       },
       {
         "type": "word",
         "title": "Leaf",
         "subtitle": "Leaf",
-        "emoji": "\ud83c\udf43"
+        "emoji": "🍃"
       }
-    ]
+    ],
+    "label": "Outside",
+    "description": "Outdoor things children see"
   },
   {
     "id": "fruits-veggies",
@@ -1962,75 +1988,77 @@ window.FLASHCARD_DECKS = [
         "type": "word",
         "title": "Apple",
         "subtitle": "Apple",
-        "emoji": "\ud83c\udf4e"
+        "emoji": "🍎"
       },
       {
         "type": "word",
         "title": "Banana",
         "subtitle": "Banana",
-        "emoji": "\ud83c\udf4c"
+        "emoji": "🍌"
       },
       {
         "type": "word",
         "title": "Orange",
         "subtitle": "Orange",
-        "emoji": "\ud83c\udf4a"
+        "emoji": "🍊"
       },
       {
         "type": "word",
         "title": "Pear",
         "subtitle": "Pear",
-        "emoji": "\ud83c\udf50"
+        "emoji": "🍐"
       },
       {
         "type": "word",
         "title": "Peach",
         "subtitle": "Peach",
-        "emoji": "\ud83c\udf51"
+        "emoji": "🍑"
       },
       {
         "type": "word",
         "title": "Grapes",
         "subtitle": "Grapes",
-        "emoji": "\ud83c\udf47"
+        "emoji": "🍇"
       },
       {
         "type": "word",
         "title": "Carrot",
         "subtitle": "Carrot",
-        "emoji": "\ud83e\udd55"
+        "emoji": "🥕"
       },
       {
         "type": "word",
         "title": "Corn",
         "subtitle": "Corn",
-        "emoji": "\ud83c\udf3d"
+        "emoji": "🌽"
       },
       {
         "type": "word",
         "title": "Peas",
         "subtitle": "Peas",
-        "emoji": "\ud83d\udfe2"
+        "emoji": "🟢"
       },
       {
         "type": "word",
         "title": "Potato",
         "subtitle": "Potato",
-        "emoji": "\ud83e\udd54"
+        "emoji": "🥔"
       },
       {
         "type": "word",
         "title": "Tomato",
         "subtitle": "Tomato",
-        "emoji": "\ud83c\udf45"
+        "emoji": "🍅"
       },
       {
         "type": "word",
         "title": "Broccoli",
         "subtitle": "Broccoli",
-        "emoji": "\ud83e\udd66"
+        "emoji": "🥦"
       }
-    ]
+    ],
+    "label": "Fruits & Veggies",
+    "description": "Fruit and vegetable word cards"
   },
   {
     "id": "animals",
@@ -2041,75 +2069,77 @@ window.FLASHCARD_DECKS = [
         "type": "word",
         "title": "Cat",
         "subtitle": "Cat",
-        "emoji": "\ud83d\udc31"
+        "emoji": "🐱"
       },
       {
         "type": "word",
         "title": "Dog",
         "subtitle": "Dog",
-        "emoji": "\ud83d\udc36"
+        "emoji": "🐶"
       },
       {
         "type": "word",
         "title": "Fish",
         "subtitle": "Fish",
-        "emoji": "\ud83d\udc1f"
+        "emoji": "🐟"
       },
       {
         "type": "word",
         "title": "Bird",
         "subtitle": "Bird",
-        "emoji": "\ud83d\udc26"
+        "emoji": "🐦"
       },
       {
         "type": "word",
         "title": "Bear",
         "subtitle": "Bear",
-        "emoji": "\ud83d\udc3b"
+        "emoji": "🐻"
       },
       {
         "type": "word",
         "title": "Frog",
         "subtitle": "Frog",
-        "emoji": "\ud83d\udc38"
+        "emoji": "🐸"
       },
       {
         "type": "word",
         "title": "Duck",
         "subtitle": "Duck",
-        "emoji": "\ud83e\udd86"
+        "emoji": "🦆"
       },
       {
         "type": "word",
         "title": "Rabbit",
         "subtitle": "Rabbit",
-        "emoji": "\ud83d\udc30"
+        "emoji": "🐰"
       },
       {
         "type": "word",
         "title": "Lion",
         "subtitle": "Lion",
-        "emoji": "\ud83e\udd81"
+        "emoji": "🦁"
       },
       {
         "type": "word",
         "title": "Elephant",
         "subtitle": "Elephant",
-        "emoji": "\ud83d\udc18"
+        "emoji": "🐘"
       },
       {
         "type": "word",
         "title": "Monkey",
         "subtitle": "Monkey",
-        "emoji": "\ud83d\udc35"
+        "emoji": "🐵"
       },
       {
         "type": "word",
         "title": "Turtle",
         "subtitle": "Turtle",
-        "emoji": "\ud83d\udc22"
+        "emoji": "🐢"
       }
-    ]
+    ],
+    "label": "Animals",
+    "description": "Common animal cards"
   },
   {
     "id": "farm-animals",
@@ -2120,63 +2150,65 @@ window.FLASHCARD_DECKS = [
         "type": "word",
         "title": "Cow",
         "subtitle": "Cow",
-        "emoji": "\ud83d\udc04"
+        "emoji": "🐄"
       },
       {
         "type": "word",
         "title": "Pig",
         "subtitle": "Pig",
-        "emoji": "\ud83d\udc37"
+        "emoji": "🐷"
       },
       {
         "type": "word",
         "title": "Horse",
         "subtitle": "Horse",
-        "emoji": "\ud83d\udc34"
+        "emoji": "🐴"
       },
       {
         "type": "word",
         "title": "Chicken",
         "subtitle": "Chicken",
-        "emoji": "\ud83d\udc14"
+        "emoji": "🐔"
       },
       {
         "type": "word",
         "title": "Sheep",
         "subtitle": "Sheep",
-        "emoji": "\ud83d\udc11"
+        "emoji": "🐑"
       },
       {
         "type": "word",
         "title": "Goat",
         "subtitle": "Goat",
-        "emoji": "\ud83d\udc10"
+        "emoji": "🐐"
       },
       {
         "type": "word",
         "title": "Duck",
         "subtitle": "Duck",
-        "emoji": "\ud83e\udd86"
+        "emoji": "🦆"
       },
       {
         "type": "word",
         "title": "Donkey",
         "subtitle": "Donkey",
-        "emoji": "\ud83e\udecf"
+        "emoji": "🫏"
       },
       {
         "type": "word",
         "title": "Rooster",
         "subtitle": "Rooster",
-        "emoji": "\ud83d\udc13"
+        "emoji": "🐓"
       },
       {
         "type": "word",
         "title": "Turkey",
         "subtitle": "Turkey",
-        "emoji": "\ud83e\udd83"
+        "emoji": "🦃"
       }
-    ]
+    ],
+    "label": "Farm Animals",
+    "description": "Farm animal word cards"
   },
   {
     "id": "word-family--at",
@@ -2218,7 +2250,9 @@ window.FLASHCARD_DECKS = [
         "title": "sat",
         "subtitle": "-at"
       }
-    ]
+    ],
+    "label": "Word Family",
+    "description": "Words that change by the first sound or letter"
   },
   {
     "id": "word-family--an",
@@ -2260,7 +2294,9 @@ window.FLASHCARD_DECKS = [
         "title": "van",
         "subtitle": "-an"
       }
-    ]
+    ],
+    "label": "Word Family",
+    "description": "Words that change by the first sound or letter"
   },
   {
     "id": "word-family--og",
@@ -2287,7 +2323,9 @@ window.FLASHCARD_DECKS = [
         "title": "log",
         "subtitle": "-og"
       }
-    ]
+    ],
+    "label": "Word Family",
+    "description": "Words that change by the first sound or letter"
   },
   {
     "id": "word-family--op",
@@ -2314,7 +2352,9 @@ window.FLASHCARD_DECKS = [
         "title": "pop",
         "subtitle": "-op"
       }
-    ]
+    ],
+    "label": "Word Family",
+    "description": "Words that change by the first sound or letter"
   },
   {
     "id": "word-family--in",
@@ -2346,7 +2386,9 @@ window.FLASHCARD_DECKS = [
         "title": "tin",
         "subtitle": "-in"
       }
-    ]
+    ],
+    "label": "Word Family",
+    "description": "Words that change by the first sound or letter"
   },
   {
     "id": "word-family--ug",
@@ -2378,7 +2420,9 @@ window.FLASHCARD_DECKS = [
         "title": "tug",
         "subtitle": "-ug"
       }
-    ]
+    ],
+    "label": "Word Family",
+    "description": "Words that change by the first sound or letter"
   },
   {
     "id": "word-family--it",
@@ -2410,7 +2454,9 @@ window.FLASHCARD_DECKS = [
         "title": "sit",
         "subtitle": "-it"
       }
-    ]
+    ],
+    "label": "Word Family",
+    "description": "Words that change by the first sound or letter"
   },
   {
     "id": "word-family--ell",
@@ -2442,7 +2488,9 @@ window.FLASHCARD_DECKS = [
         "title": "well",
         "subtitle": "-ell"
       }
-    ]
+    ],
+    "label": "Word Family",
+    "description": "Words that change by the first sound or letter"
   },
   {
     "id": "word-family--ake",
@@ -2479,7 +2527,9 @@ window.FLASHCARD_DECKS = [
         "title": "take",
         "subtitle": "-ake"
       }
-    ]
+    ],
+    "label": "Word Family",
+    "description": "Words that change by the first sound or letter"
   },
   {
     "id": "word-family--ight",
@@ -2506,7 +2556,9 @@ window.FLASHCARD_DECKS = [
         "title": "sight",
         "subtitle": "-ight"
       }
-    ]
+    ],
+    "label": "Word Family",
+    "description": "Words that change by the first sound or letter"
   },
   {
     "id": "beginning-blend-st",
@@ -2538,7 +2590,9 @@ window.FLASHCARD_DECKS = [
         "title": "stone",
         "subtitle": "Starts with st"
       }
-    ]
+    ],
+    "label": "Beginning Blend",
+    "description": "Words that start with the same beginning blend"
   },
   {
     "id": "beginning-blend-bl",
@@ -2570,7 +2624,9 @@ window.FLASHCARD_DECKS = [
         "title": "bloom",
         "subtitle": "Starts with bl"
       }
-    ]
+    ],
+    "label": "Beginning Blend",
+    "description": "Words that start with the same beginning blend"
   },
   {
     "id": "beginning-blend-cl",
@@ -2602,7 +2658,9 @@ window.FLASHCARD_DECKS = [
         "title": "climb",
         "subtitle": "Starts with cl"
       }
-    ]
+    ],
+    "label": "Beginning Blend",
+    "description": "Words that start with the same beginning blend"
   },
   {
     "id": "beginning-blend-tr",
@@ -2634,7 +2692,9 @@ window.FLASHCARD_DECKS = [
         "title": "track",
         "subtitle": "Starts with tr"
       }
-    ]
+    ],
+    "label": "Beginning Blend",
+    "description": "Words that start with the same beginning blend"
   },
   {
     "id": "beginning-blend-sh",
@@ -2666,6 +2726,8 @@ window.FLASHCARD_DECKS = [
         "title": "sheep",
         "subtitle": "Starts with sh"
       }
-    ]
+    ],
+    "label": "Beginning Blend",
+    "description": "Words that start with the same beginning blend"
   }
 ];
