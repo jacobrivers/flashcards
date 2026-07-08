@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Kid Flash Cards</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="app-header">
+    <div>
+      <h1>Kid Flash Cards</h1>
+      <p>Pick a deck, show a card, ask “What is in the picture?”, then reveal the answer.</p>
+    </div>
+    <button id="homeBtn" class="secondary hidden">Decks</button>
+  </header>
+
+  <main>
+    <section id="deckScreen" class="screen active">
+      <div class="toolbar">
+        <input id="searchInput" type="search" placeholder="Search decks or cards..." aria-label="Search decks or cards" />
+        <label class="toggle"><input id="shuffleDeck" type="checkbox" /> Shuffle cards</label>
+      </div>
+      <div id="deckGrid" class="deck-grid"></div>
+    </section>
+
+    <section id="cardScreen" class="screen">
+      <div class="card-topline">
+        <div>
+          <div id="deckTitle" class="deck-title"></div>
+          <div id="cardCounter" class="counter"></div>
+        </div>
+        <button id="speakBtn" class="secondary">🔊 Say Answer</button>
+      </div>
+
+      <article id="flashCard" class="flash-card" tabindex="0" aria-live="polite">
+        <div class="image-wrap">
+          <img id="cardImage" alt="Flash card picture" />
+        </div>
+        <div id="answer" class="answer hidden"></div>
+        <div id="prompt" class="prompt">What is in the picture?</div>
+      </article>
+
+      <div class="controls">
+        <button id="prevBtn" class="secondary">Previous</button>
+        <button id="revealBtn">Show Answer</button>
+        <button id="nextBtn" class="secondary">Next</button>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    Images load from Wikimedia Commons using free/public-domain media pages. Review image licenses before publishing commercially.
+  </footer>
+
+  <script src="decks.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
