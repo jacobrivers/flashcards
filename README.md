@@ -1,38 +1,26 @@
 # Kid Flash Cards
 
-Static, dependency-free flash card website for GitHub Pages.
+Static GitHub Pages-ready flash card website for early learning.
 
-## Run locally
+## Included decks
 
-Open `index.html` in a browser.
+- Alphabet Uppercase A-Z
+- Alphabet Lowercase a-z
+- Alphabet Upper + Lower A a through Z z
+- Numbers 0-20
+- Shapes using drawn SVG shapes
+- Colors using drawn swatches
+- 50 home words
+- 100 simple words for ages 3-4
+- Objects, kitchen items, clothes, vehicles, outside things, fruits and vegetables, animals, farm animals
+- Word family decks and beginning blend decks
 
-## Publish on GitHub Pages
+## How to use
 
-1. Create a GitHub repository.
-2. Upload `index.html`, `styles.css`, `app.js`, `decks.js`, and `README.md`.
-3. Go to **Settings > Pages**.
-4. Set source to **Deploy from a branch**.
-5. Select `main` and `/root`, then save.
+Open `index.html` in a browser, or upload all files to a GitHub Pages repository.
 
-## Add or change cards
+No npm install is required.
 
-Edit `decks.js`.
+## Edit decks
 
-Each card uses this format:
-
-```js
-{ name: "Dog", file: "Golden Retriever standing Tucker.jpg" }
-```
-
-The `file` value is the Wikimedia Commons filename. The website converts it to a hosted image URL using `Special:FilePath`.
-
-## Image licensing note
-
-Wikimedia Commons hosts freely licensed or public-domain media, but individual files can require attribution or have specific license conditions. Review the file page before broad publishing or commercial use.
-
-
-## Latest updates
-
-- Images now use `object-fit: contain` with padding so pictures should not be cropped or cut off.
-- The word is always shown on the card to support picture recognition and word reading.
-- Alphabet and number decks now use generated text cards instead of external image files.
+Edit `decks.js` to add, remove, or change cards.

@@ -10,49 +10,41 @@
   <header class="app-header">
     <div>
       <h1>Kid Flash Cards</h1>
-      <p>Pick a deck, show a card, ask “What is in the picture?”, then reveal the answer.</p>
+      <p>Pick a deck, show the card, and ask your child to say the word.</p>
     </div>
-    <button id="homeBtn" class="secondary hidden">Decks</button>
+    <button id="libraryBtn" class="secondary">Deck Library</button>
   </header>
 
   <main>
-    <section id="deckScreen" class="screen active">
-      <div class="toolbar">
-        <input id="searchInput" type="search" placeholder="Search decks or cards..." aria-label="Search decks or cards" />
-        <label class="toggle"><input id="shuffleDeck" type="checkbox" /> Shuffle cards</label>
-      </div>
-      <div id="deckGrid" class="deck-grid"></div>
-    </section>
+    <section id="deckLibrary" class="deck-library"></section>
 
-    <section id="cardScreen" class="screen">
-      <div class="card-topline">
+    <section id="studyView" class="study hidden" aria-live="polite">
+      <div class="study-top">
+        <button id="backBtn" class="secondary">← Decks</button>
         <div>
-          <div id="deckTitle" class="deck-title"></div>
-          <div id="cardCounter" class="counter"></div>
+          <h2 id="deckTitle"></h2>
+          <p id="cardCounter"></p>
         </div>
-        <button id="speakBtn" class="secondary">🔊 Say Answer</button>
+        <button id="shuffleBtn" class="secondary">Shuffle</button>
       </div>
 
-      <article id="flashCard" class="flash-card" tabindex="0" aria-live="polite">
-        <div id="visualWrap" class="image-wrap">
-          <img id="cardImage" alt="Flash card picture" />
-          <div id="textCard" class="text-card hidden"></div>
-        </div>
-        <div id="cardWord" class="card-word"></div>
-        <div id="answer" class="answer hidden"></div>
-        <div id="prompt" class="prompt">Ask your kid to say the picture or word.</div>
+      <article id="card" class="card">
+        <div id="visual" class="visual"></div>
+        <div id="word" class="word"></div>
+        <div id="subtitle" class="subtitle"></div>
       </article>
 
       <div class="controls">
-        <button id="prevBtn" class="secondary">Previous</button>
-        <button id="revealBtn">Show Answer</button>
-        <button id="nextBtn" class="secondary">Next</button>
+        <button id="prevBtn">Previous</button>
+        <button id="speakBtn" class="secondary">Say Word</button>
+        <button id="toggleWordBtn" class="secondary">Hide Word</button>
+        <button id="nextBtn">Next</button>
       </div>
     </section>
   </main>
 
   <footer>
-    Images load from Wikimedia Commons using free/public-domain media pages. Review image licenses before publishing commercially.
+    Static site. No login, no tracking, no npm required.
   </footer>
 
   <script src="decks.js"></script>
