@@ -34,11 +34,13 @@
       </div>
 
       <article id="flashCard" class="flash-card" tabindex="0" aria-live="polite">
-        <div class="image-wrap">
+        <div id="visualWrap" class="image-wrap">
           <img id="cardImage" alt="Flash card picture" />
+          <div id="textCard" class="text-card hidden"></div>
         </div>
+        <div id="cardWord" class="card-word"></div>
         <div id="answer" class="answer hidden"></div>
-        <div id="prompt" class="prompt">What is in the picture?</div>
+        <div id="prompt" class="prompt">Ask your kid to say the picture or word.</div>
       </article>
 
       <div class="controls">

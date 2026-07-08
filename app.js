@@ -35,9 +35,23 @@ function openDeck(deck) {
 }
 function renderCard() {
   const card = state.cards[state.index];
-  $('cardImage').src = imageUrl(card.file);
-  $('cardImage').alt = card.name;
-  $('answer').textContent = card.name;
+  const isTextOnly = card.type === 'text' || !card.file;
+
+  $('cardImage').classList.toggle('hidden', isTextOnly);
+  $('textCard').classList.toggle('hidden', !isTextOnly);
+
+  if (isTextOnly) {
+    $('cardImage').removeAttribute('src');
+    $('cardImage').alt = '';
+    $('textCard').textContent = card.display || card.name;
+  } else {
+    $('cardImage').src = imageUrl(card.file);
+    $('cardImage').alt = card.name;
+    $('textCard').textContent = '';
+  }
+
+  $('cardWord').textContent = card.name;
+  $('answer').textContent = state.revealed ? `Answer: ${card.name}` : '';
   $('answer').classList.toggle('hidden', !state.revealed);
   $('prompt').classList.toggle('hidden', state.revealed);
   $('revealBtn').textContent = state.revealed ? 'Hide Answer' : 'Show Answer';

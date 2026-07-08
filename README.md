@@ -29,3 +29,10 @@ The `file` value is the Wikimedia Commons filename. The website converts it to a
 ## Image licensing note
 
 Wikimedia Commons hosts freely licensed or public-domain media, but individual files can require attribution or have specific license conditions. Review the file page before broad publishing or commercial use.
+
+
+## Latest updates
+
+- Images now use `object-fit: contain` with padding so pictures should not be cropped or cut off.
+- The word is always shown on the card to support picture recognition and word reading.
+- Alphabet and number decks now use generated text cards instead of external image files.
